@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ItemSlot : MonoBehaviour
 {
-    public Item item;
+    public Item item = null;
     [SerializeField]
     private int count = 0;
     public int Count
@@ -58,6 +58,10 @@ public class ItemSlot : MonoBehaviour
         if(CanUseItem(item))
         {
             item.Use();
+            if (item.isConsumable)
+            {
+                Count--;
+            }
         }
     }
 
