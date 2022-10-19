@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DayTown.unity
     guid: a705513b429da264c86a3dc4d6e106b1
+  - enabled: 1
+    path: Assets/Scenes/RandomEncounter.unity
+    guid: d7dfcf0463aa7fa4485508cfbc9c0a1e
   m_configObjects: {}

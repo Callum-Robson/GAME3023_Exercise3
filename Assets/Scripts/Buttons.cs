@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
-    public void MenueContinue()
+    public void MenuContinue()
     {
         SceneManager.LoadScene("NightTown");
     }
 
-    public void MenueNewGame()
+    public void MenuNewGame()
     {
         SceneManager.LoadScene("NightTown");
     }
@@ -19,4 +19,9 @@ public class Buttons : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void Flee()
+    {
+        SceneManager.LoadScene("NightTown");
+    }    
 }
